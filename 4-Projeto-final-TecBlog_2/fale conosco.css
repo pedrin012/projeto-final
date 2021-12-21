@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px sold red;
+    background: rgb(238, 238, 222);
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    /* border: 1px solid red; */
+    display: block;
+    cursor: pointer;
+}
+
+input{ /*input[type="radio"]*/
+    width: 300px;
+}
+
+textarea{
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+.radio{
+    margin-right: 1em;
+}
+
